@@ -22,6 +22,9 @@ public class Member {
 		return point;
 	}
 	public void setPoint(int point) {
+		if (point<0) {
+			System.out.println("음수 값은 입력이 불가합니다.");
+		}
 		this.point = point;
 	}
 	
