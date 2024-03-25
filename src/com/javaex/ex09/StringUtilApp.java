@@ -9,7 +9,6 @@ public class StringUtilApp {
 		Scanner sc = new Scanner(System.in);
 		
 		System.out.println("문자열을 입력하시오.");
-		System.out.println("(종료를 원하는 경우, \"종료\"를 입력할 것.)");
 		
 		String strArray[] = new String[5];
 		StringUtil strs = new StringUtil();
@@ -17,6 +16,7 @@ public class StringUtilApp {
 		for (int i=0; i<5;i++) {
 			strs.setStrs(sc.next());
 			strArray[i]=strs.getStrs();
+			
 		}
 		
 		for (int j = 0; j<5;j++) {
